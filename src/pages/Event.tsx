@@ -2,7 +2,7 @@ import Header from '../components/Header';
 import Sidebar from '../components/Sidebar';
 import Video from '../components/Video';
 
-function Event() {
+export function Event() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
@@ -13,5 +13,3 @@ function Event() {
     </div>
   );
 }
-
-export default Event;
