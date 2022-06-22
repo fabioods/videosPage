@@ -1,11 +1,15 @@
-import React from 'react';
 import Header from '../components/Header';
-import Logo from '../components/Logo';
+import Sidebar from '../components/Sidebar';
+import Video from '../components/Video';
 
 function Event() {
   return (
-    <div>
+    <div className="flex flex-col min-h-screen">
       <Header />
+      <main className="flex flex-1">
+        <Video />
+        <Sidebar />
+      </main>
     </div>
   );
 }
